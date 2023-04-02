@@ -1,31 +1,100 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(172, 175, 175);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    box-sizing: border-box;
 }
 
-table {
-    border: 2px solid rgb(53, 53, 53);
-    background-color: rgb(125, 186, 226);
+header {
+    background-color: skyblue;
 }
 
-th {
-    text-align: left;
-    background-color: rgb(125, 186, 226);
-    color: rgb(54, 66, 62);
-    border: 2px solid rgba(255, 255, 255, 0.445);
+nav {
+    position: fixed;
+    z-index: 10;
+    background-color: skyblue;
+    width: 100%;
+    height: 80px;
+    display: block;
+    padding-left: 25px;
+    box-shadow: 0px 5px #3f3f3f;
 }
 
-td {
-    background-color: rgb(217, 238, 240);
-    color: rgb(80, 92, 88);
-    padding: 5px;
-    border: 1px solid rgb(107, 124, 124);
+nav ul {
+    display: block;
+    padding: auto 0px;
+    height: 80px;
+    background-color: skyblue;
 }
 
-.tags {
+nav li {
+    display: inline-block;
+    text-decoration: none;
     margin: 0 auto;
+    font-size: 24px;
+    background-color: skyblue;
+    padding-top: 24px;
+    height: 80px;
 }
 
-.attributes, .global-attributes {
-    display: none;
+nav li+li::before {
+    content: "|";
+    color: #3f3f3f;
+    background-color: skyblue;
+    width: 30px;
+    padding-right: 15px;
+}
+
+nav li a {
+    color: #3f3f3f;
+    text-decoration: none;
+    background-color: skyblue;
+    text-align: center;
+    margin-right: 15px;
+}
+
+main {
+    position: relative;
+    top: 90px;
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+main section {
+    border: 2px solid white;
+    padding: 5px;
+    margin: 5px;
+    margin: 15px 25px;
+}
+
+
+h1 {
+    color: skyblue;
+    margin: 0 25px;
+}
+
+h2 {
+    color: skyblue;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 50px;
+    background-color: skyblue;
+    box-shadow: 0px -5px #3f3f3f;
+    margin-top: 10px;
+}
+
+footer p {
+    display: block;
+    color: #3f3f3f;
+    background-color: skyblue;
+    padding: 14px 25px;
+    height: 50px;
 }
