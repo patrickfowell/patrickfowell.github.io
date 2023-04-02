@@ -1,0 +1,31 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: rgb(107, 124, 124); */
+}
+
+table {
+    border: 2px solid white;
+    background-color: rgb(125, 186, 226);
+}
+
+th {
+    text-align: left;
+    background-color: rgb(125, 186, 226);
+    color: rgb(54, 66, 62);
+    border: 2px solid rgba(255, 255, 255, 0.445);
+}
+
+td {
+    background-color: rgb(217, 238, 240);
+    color: rgb(80, 92, 88);
+    padding: 5px;
+    border: 1px solid rgb(107, 124, 124);
+}
+
+.tags {
+    margin: 0 auto;
+}
+
+.attributes, .global-attributes {
+    display: none;
+}
