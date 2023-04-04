@@ -1,4 +1,12 @@
 
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    box-sizing: border-box;
+}
+
 header {
     background-color: skyblue;
 }
@@ -131,29 +139,39 @@ colour p {
 }
 
 fonts {
-    display: flex;
-    padding: 5px
+    display: inline-flex;
+    padding: 5px;
+    width: 400px;
 }
 
-#segoe-ui p {
+fonts p {
+    display: block;
+}
+
+.segoe-ui td {
     font-family: 'Segoe UI';
     font-size: 20px;
 }
 
-#tahoma  p{
+.tahoma td {
     font-family: Tahoma;
     font-size: 20px;
 }
 
-#geneva p {
+.geneva td {
     font-family: Geneva;
     font-size: 20px;
 }
 
-* {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: grey;
-    box-sizing: border-box;
+#bold {
+    font-weight: bold;
 }
+
+#italic {
+    font-style: italic;
+}
+
+#name {
+    text-decoration: underline;
+}
+
