@@ -102,11 +102,12 @@ footer p {
 
 colour {
     display: inline-flex;
-    color: #3f3f3f;
-    border: 2px solid #3f3f3f;
+    color: #2e2e2e;
+    border: 2px solid #2e2e2e;
     z-index: 5;
-    width: 120px;
-    height: 80px;
+    width: 240px;
+    height: 120px;
+    margin: 5px;
 }
 
 colour p {
@@ -126,12 +127,20 @@ colour p {
     background-color: skyblue;
 }
 
+.dodgerblue {
+    background-color: dodgerblue;
+}
+
 .grey {
     background-color: grey;
 }
 
 .charcoal {
     background-color:  #3f3f3f;
+}
+
+.darkcharcoal {
+    background-color:  #2e2e2e;
 }
 
 .aqua {
@@ -142,6 +151,7 @@ fonts {
     display: inline-flex;
     padding: 5px;
     width: 430px;
+    color: #2E2E2E;
 }
 
 fonts td {
