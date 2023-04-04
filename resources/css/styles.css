@@ -141,26 +141,23 @@ colour p {
 fonts {
     display: inline-flex;
     padding: 5px;
-    width: 400px;
+    width: 430px;
 }
 
-fonts p {
-    display: block;
+fonts td {
+    font-size: 18px;
 }
 
 .segoe-ui td {
     font-family: 'Segoe UI';
-    font-size: 20px;
 }
 
 .tahoma td {
     font-family: Tahoma;
-    font-size: 20px;
 }
 
 .geneva td {
     font-family: Geneva;
-    font-size: 20px;
 }
 
 #bold {
@@ -173,5 +170,6 @@ fonts p {
 
 #name {
     text-decoration: underline;
+    font-size: 24px;
 }
 
