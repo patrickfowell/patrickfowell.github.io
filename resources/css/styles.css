@@ -5,6 +5,7 @@
     padding: 0;
     background-color: grey;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -61,7 +62,7 @@ main {
 }
 
 main {
-    margin-bottom: 50px;
+    margin-bottom: 200px;
 }
 
 main section {
@@ -69,8 +70,8 @@ main section {
     padding: 5px;
     margin: 5px;
     margin: 15px 25px;
+    scroll-margin-top: 100px;
 }
-
 
 h1 {
     color: skyblue;
