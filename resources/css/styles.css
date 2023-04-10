@@ -8,6 +8,13 @@
     margin: 0;
 }
 
+main {
+    margin-bottom: 95px;
+}
+section {
+    margin: 10px 0px;;
+}
+
 /* Header Elements */
 header {
     position: fixed;
@@ -94,4 +101,61 @@ tea-card img {
     height: 200px;
     width: 300px;
     margin-bottom: 10px;
+}
+
+/* locations styling */
+
+.location {
+    background-image: url("../images/img-locations-background.jpg");
+    position: relative;
+    top: 69px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.location h2 {
+    background-color: transparent;
+}
+
+.location-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: transparent;
+}
+
+location-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 250px
+}
+
+/* contact styling */
+.contact {
+    position: relative;
+    top: 69px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    justify-content: space-between;
+}
+
+/* footer styling */
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin: 20px;
 }
