@@ -3,7 +3,7 @@
     background-color: black;
     color: seashell;
     font-size: 22px;
-    opacity: 0.9;
+    /* opacity: 0.9; */
     box-sizing: border-box;
     margin: 0;
 }
@@ -39,3 +39,25 @@ nav li {
 }
 
 /* Banner Styling */
+
+.banner {
+    background-image: url("../images/img-mission-background.jpg");
+    position: relative;
+    top: 69px;
+    display: flex;
+    width: 1200px;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.mission {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
